@@ -10,13 +10,18 @@ body{
 	margin:0;
 }
 
-header{
+header.main-image{
 	background: #eee;
 	height: 600px;
 	background-image: url(../img/character-small.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 50% 50%;
+}
+
+header.sub-page{
+	background: #eee;
+	height: 100px;
 }
 
 header ul{
@@ -42,6 +47,9 @@ header li a:hover{/*疑似クラス -- 要素が特定の状態になったと�
 	color:royalblue;
 }
 
+header li.current{
+	border-bottom: 3px solid #ccc;
+}
 
 section{
 	text-align: center;
@@ -69,13 +77,11 @@ section h3{
 }
 
 .icon{
-
 	background-color: #eee;
 	border-radius: 50%;
     padding: 30px 40px;
     border: 5px solid #fff;
     box-shadow: 0px 0px 5px gray;/* x y blur color */
-	
 }
 
 div.works{
@@ -89,6 +95,15 @@ div.works h1, div.works h3, div.works p{
 	text-align: left;
 }
 
+div.about{
+	margin: 30px auto;
+	width: 400px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+div.about h1, div.about h3, div.about p{
+	text-align: left;
+}
 
 footer{
 	width: 400px;
@@ -116,4 +131,24 @@ footer p {
 	color:#ccc;
 	font-size: 14px;
 	text-align: right;
+}
+
+/*margins*/
+.mb10{
+	margin-bottom: 10px;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.mb50{
+	margin-bottom: 50px;
+}
+.mb60{
+	margin-bottom: 60px;
 }
