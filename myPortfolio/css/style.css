@@ -1,7 +1,7 @@
 /*
 css rule 
 ・プロパティ順はAtoZ
-
+・共通部分と部分的な表記をわける
 */
 
 body{
@@ -11,8 +11,12 @@ body{
 }
 
 header{
-	background: #000;
-	height: 150px;
+	background: #eee;
+	height: 600px;
+	background-image: url(../img/character-small.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
 }
 
 header ul{
@@ -36,4 +40,57 @@ header li a{
 
 header li a:hover{/*疑似クラス -- 要素が特定の状態になったときを表現できる*/
 	color:royalblue;
+}
+
+
+section{
+	text-align: center;
+}
+
+section h1{
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+section p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+section h2{
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 300px;
+	border-bottom:1px solid #ccc;
+}
+
+section h3{
+	font-weight: normal;
+}
+
+.icon{
+
+	background-color: #eee;
+	border-radius: 50%;
+    padding: 30px 40px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 5px gray;/* x y blur color */
+	
+}
+
+div.works{
+	margin: 30px auto;
+	width: 400px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+
+div.works h1, div.works h3, div.works p{
+	text-align: left;
+}
+
+
+footer{
+	width: 400px;
+	margin: 0 auto;
 }
