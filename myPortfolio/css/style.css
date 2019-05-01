@@ -94,3 +94,26 @@ footer{
 	width: 400px;
 	margin: 0 auto;
 }
+
+footer ul{
+	color:#fff;
+	margin:0;
+	list-style-type: none;
+	padding-left: 0;
+	text-align: right;
+	float: left ;
+}
+
+footer li{
+	display: inline-block;
+}
+
+footer li a:hover{/*疑似クラス -- 要素が特定の状態になったときを表現できる*/
+	opacity: 0.5;
+}
+
+footer p {
+	color:#ccc;
+	font-size: 14px;
+	text-align: right;
+}
