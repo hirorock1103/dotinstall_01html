@@ -1,0 +1,39 @@
+/*
+css rule 
+・プロパティ順はAtoZ
+
+*/
+
+body{
+	color:#666;
+	font-family: Verdana, sans-serif;/*VerdanaがあればVernadaを使う、なければsans-serif*/
+	margin:0;
+}
+
+header{
+	background: #000;
+	height: 150px;
+}
+
+header ul{
+	color:#fff;
+	margin:0;
+	list-style-type: none;
+	padding-left: 0;
+	text-align: right;
+}
+
+header li{
+	display: inline-block;
+	padding:4px 8px;
+	font-size: 12px;
+}
+
+header li a{
+	text-decoration: none;
+	color:inherit;/*inherit -- 親要素のスタイルを反映したい*/
+}
+
+header li a:hover{/*疑似クラス -- 要素が特定の状態になったときを表現できる*/
+	color:royalblue;
+}
